@@ -1,0 +1,14 @@
+create table produk (
+    id int primary key,
+    nama_produk varchar(100),
+    kategori varchar(50),
+    harga int,
+    stok int
+);
+
+insert into produk (id, nama_produk, kategori, harga, stok) values 
+(1, 'Laptop','Elektronik', 5000000, 10),
+(2, 'Kaos', 'Pakaian', 75000, 25),
+(3, 'Roti', 'Makanan', 10000, 50),
+(4, 'Kopi', 'Minuman', 15000, 30),
+(5, 'Kopi', 'Makanan', 200000, 15);
